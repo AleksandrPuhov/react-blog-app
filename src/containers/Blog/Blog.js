@@ -53,7 +53,7 @@ class Blog extends Component {
         </section>
         <section>
           <NewPost />
-        </section>
+        </section> 
       </div>
     );
   }
