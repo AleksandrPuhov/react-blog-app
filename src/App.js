@@ -5,8 +5,11 @@ import { BrowserRouter } from 'react-router-dom';
 import Blog from './containers/Blog/Blog';
 
 function App() {
+
   return (
-    <BrowserRouter>
+    // <BrowserRouter basename="/my-app">
+    <BrowserRouter >
+
       <div className="App">
         <Blog />
       </div>
